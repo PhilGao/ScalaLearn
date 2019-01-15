@@ -16,7 +16,7 @@ object MyCounter{
     def main(args:Array[String]){
         val myCounter = new Counter
         println(myCounter.value)
-        myCounter.value = 3 //value 函数
+        myCounter.value = 3 //value_ 函数
         println(myCounter.value)
         myCounter.increment(1)
         println(myCounter.current())
